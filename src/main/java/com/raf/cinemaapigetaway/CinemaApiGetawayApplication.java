@@ -12,6 +12,7 @@ import org.springframework.web.filter.CorsFilter;
 
 @SpringBootApplication
 @EnableZuulProxy
+@EnableEurekaClient
 public class CinemaApiGetawayApplication {
 
     @Bean
